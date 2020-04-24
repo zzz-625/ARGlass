@@ -1,0 +1,17 @@
+--cpu Cortex-M0
+".\objects\system_nano100series.o"
+".\objects\startup_nano100series.o"
+".\objects\clk.o"
+".\objects\gpio.o"
+".\objects\retarget.o"
+".\objects\spi.o"
+".\objects\sys.o"
+".\objects\uart.o"
+".\objects\ecx335af.o"
+".\objects\lt_i2c.o"
+".\objects\lt7211_upgrade.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\LT7211Bfwupgrade.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LT7211Bfwupgrade.map" -o .\Objects\LT7211Bfwupgrade.axf

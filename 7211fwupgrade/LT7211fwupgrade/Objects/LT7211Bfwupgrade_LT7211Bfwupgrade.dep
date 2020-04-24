@@ -1,0 +1,358 @@
+Dependencies for Project 'LT7211Bfwupgrade', Target 'LT7211Bfwupgrade': (DO NOT MODIFY !)
+F (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Source\system_Nano100Series.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\system_nano100series.o --omf_browse .\objects\system_nano100series.crf --depend .\objects\system_nano100series.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Source\ARM\startup_Nano100Series.s)(0x5C2C8BEA)(--cpu Cortex-M0 -g --apcs=interwork -Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526"--list .\listings\startup_nano100series.lst --xref -o .\objects\startup_nano100series.o --depend .\objects\startup_nano100series.d)
+F (..\Library\nuvoton\StdDriver\src\clk.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\StdDriver\src\gpio.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\StdDriver\src\retarget.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\StdDriver\src\spi.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\StdDriver\src\sys.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\nuvoton\StdDriver\src\uart.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+F (..\Library\fih\src\Ecx335af.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\ecx335af.o --omf_browse .\objects\ecx335af.crf --depend .\objects\ecx335af.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\fih_arg.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\lt_i2c.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\Ecx335af.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\LT7211_upgrade.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\debug.h)(0x5C2C8BEA)
+F (..\Library\fih\src\lt_i2c.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\lt_i2c.o --omf_browse .\objects\lt_i2c.crf --depend .\objects\lt_i2c.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\fih_arg.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\lt_i2c.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\Ecx335af.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\LT7211_upgrade.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\debug.h)(0x5C2C8BEA)
+F (..\Library\fih\src\LT7211_upgrade.c)(0x5C807B41)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\lt7211_upgrade.o --omf_browse .\objects\lt7211_upgrade.crf --depend .\objects\lt7211_upgrade.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\fih_arg.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\lt_i2c.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\Ecx335af.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\LT7211_upgrade.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\debug.h)(0x5C2C8BEA)
+F (..\main.c)(0x5C2C8BEA)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Library\fih\inc -I ..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include -I ..\Library\nuvoton\StdDriver\inc -I ..\Library\nuvoton\CMSIS\Include-Id:\Keil_v5\ARM\RV31\INC-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cm0.h)(0x5C2C8BEA)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Library\nuvoton\CMSIS\Include\core_cmInstr.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\cmsis_armcc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\CMSIS\Include\core_cmFunc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\Device\Nuvoton\Nano100Series\Include\system_Nano100Series.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sys.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\clk.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\adc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\dac.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\fmc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\ebi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\gpio.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2c.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\crc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pdma.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\pwm.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\rtc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\sc.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\scuart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\spi.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\timer.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\uart.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\usbd.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\wwdt.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\i2s.h)(0x5C2C8BEA)
+I (..\Library\nuvoton\StdDriver\inc\lcd.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\fih_arg.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\lt_i2c.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\Ecx335af.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\LT7211_upgrade.h)(0x5C2C8BEA)
+I (..\Library\fih\inc\debug.h)(0x5C2C8BEA)

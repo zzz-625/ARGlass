@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zzz zzz, FIH, LIC=CZLPC-796QM-PZZWB-2M59N-7YGS6-3FVQR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      UL2CM3.DLL V1.161.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+F:\project\ARG\7211fwupgrade\LT7211fwupgrade\LT7211Bfwupgrade.uvproj
+Project File Date:  01/02/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LT7211Bfwupgrade'
+assembling startup_Nano100Series.s...
+compiling system_Nano100Series.c...
+compiling gpio.c...
+compiling clk.c...
+compiling retarget.c...
+compiling sys.c...
+compiling uart.c...
+compiling spi.c...
+compiling Ecx335af.c...
+compiling lt_i2c.c...
+compiling LT7211_upgrade.c...
+..\Library\fih\src\LT7211_upgrade.c(508): warning:  #223-D: function "memset" declared implicitly
+  		memset( byPageReadData, 0, 128 );
+..\Library\fih\src\LT7211_upgrade.c(452): warning:  #550-D: variable "bRet"  was set but never used
+  	int bRet;
+..\Library\fih\src\LT7211_upgrade.c(687): warning:  #223-D: function "memset" declared implicitly
+  		memset( byPageReadData, 0, 128 );
+..\Library\fih\src\LT7211_upgrade.c(736): warning:  #177-D: variable "lEndAddr"  was declared but never referenced
+  	long lEndAddr   = lWriteAddr;
+..\Library\fih\src\LT7211_upgrade.c: 4 warnings, 0 errors
+compiling main.c...
+linking...
+Program Size: Code=8140 RO-data=560 RW-data=6852 ZI-data=2660  
+After Build - User command #1: fromelf --bin ".\Objects\LT7211Bfwupgrade.axf" --output ".\Objects\LT7211Bfwupgrade.bin"
+After Build - User command #2: fromelf --text -c ".\Objects\LT7211Bfwupgrade.axf" --output ".\Objects\LT7211Bfwupgrade.txt"
+".\Objects\LT7211Bfwupgrade.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

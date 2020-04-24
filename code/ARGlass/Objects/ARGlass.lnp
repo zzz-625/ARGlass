@@ -1,0 +1,32 @@
+--cpu Cortex-M0
+".\objects\system_nano100series.o"
+".\objects\startup_nano100series.o"
+".\objects\clk.o"
+".\objects\gpio.o"
+".\objects\i2c.o"
+".\objects\retarget.o"
+".\objects\spi.o"
+".\objects\sys.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\usbd.o"
+".\objects\descriptors.o"
+".\objects\backlight.o"
+".\objects\ecx335af.o"
+".\objects\hid_transfer.o"
+".\objects\imu_spi.o"
+".\objects\lt_i2c.o"
+".\objects\key.o"
+".\objects\lt7211_upgrade.o"
+".\objects\ecx335af_calibration.o"
+".\objects\fmc.o"
+".\objects\lp_i2c.o"
+".\objects\mcu_version.o"
+".\objects\i2c_alsps.o"
+".\objects\wdt.o"
+".\objects\download_flag.o"
+".\objects\main.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_nano100Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ARGlass.map" -o .\Objects\ARGlass.axf

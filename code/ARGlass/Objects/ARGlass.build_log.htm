@@ -1,0 +1,278 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: foxconn foxconn, fih, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+E:\project\ARG\code\ARGlass\ARGlass.uvprojx
+Project File Date:  03/19/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'ARGlass'
+creating preprocessor file for system_Nano100Series.c...
+assembling startup_Nano100Series.s...
+creating preprocessor file for clk.c...
+creating preprocessor file for gpio.c...
+compiling system_Nano100Series.c...
+compiling clk.c...
+creating preprocessor file for i2c.c...
+creating preprocessor file for retarget.c...
+compiling gpio.c...
+creating preprocessor file for spi.c...
+compiling i2c.c...
+creating preprocessor file for sys.c...
+compiling retarget.c...
+compiling spi.c...
+creating preprocessor file for timer.c...
+compiling sys.c...
+creating preprocessor file for uart.c...
+creating preprocessor file for usbd.c...
+compiling timer.c...
+creating preprocessor file for descriptors.c...
+compiling uart.c...
+compiling usbd.c...
+creating preprocessor file for backlight.c...
+compiling descriptors.c...
+creating preprocessor file for Ecx335af.c...
+compiling backlight.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\backlight.c: 3 warnings, 0 errors
+creating preprocessor file for hid_transfer.c...
+creating preprocessor file for imu_spi.c...
+compiling Ecx335af.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\Ecx335af.c(335): warning:  #550-D: variable "ret"  was set but never used
+  	uint32_t ret, i = 0;
+..\Library\fih\src\Ecx335af.c: 4 warnings, 0 errors
+compiling hid_transfer.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\hid_transfer.c(646): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i = 0;
+..\Library\fih\src\hid_transfer.c(788): warning:  #223-D: function "set_boot_flags" declared implicitly
+  				set_boot_flags();	
+..\Library\fih\src\hid_transfer.c(727): warning:  #177-D: variable "flag"  was declared but never referenced
+  	int8_t flag = 0;
+..\Library\fih\src\hid_transfer.c: 6 warnings, 0 errors
+creating preprocessor file for lt_i2c.c...
+compiling imu_spi.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\imu_spi.c(137): warning:  #550-D: variable "com_rslt"  was set but never used
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(148): warning:  #550-D: variable "com_rslt"  was set but never used
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(162): warning:  #177-D: variable "com_rslt"  was declared but never referenced
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(174): warning:  #177-D: variable "com_rslt"  was declared but never referenced
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(201): warning:  #177-D: variable "com_rslt"  was declared but never referenced
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(461): warning:  #177-D: variable "ret"  was declared but never referenced
+  	uint8_t ret;
+..\Library\fih\src\imu_spi.c(462): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i = 0;
+..\Library\fih\src\imu_spi.c(468): warning:  #550-D: variable "v_data_u8"  was set but never used
+  	uint8_t v_data_u8[2] = {BMM050_INIT_VALUE, BMM050_INIT_VALUE};
+..\Library\fih\src\imu_spi.c(534): warning:  #550-D: variable "ret"  was set but never used
+  	uint8_t ret;
+..\Library\fih\src\imu_spi.c(592): warning:  #177-D: variable "com_rslt"  was declared but never referenced
+  	int8_t com_rslt = ERROR;
+..\Library\fih\src\imu_spi.c(593): warning:  #550-D: variable "data_ready"  was set but never used
+  	uint8_t data_ready;
+..\Library\fih\src\imu_spi.c: 14 warnings, 0 errors
+creating preprocessor file for key.c...
+creating preprocessor file for LT7211_upgrade.c...
+compiling lt_i2c.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\lt_i2c.c(295): warning:  #550-D: variable "i"  was set but never used
+      uint8_t i,j;
+..\Library\fih\src\lt_i2c.c(295): warning:  #550-D: variable "j"  was set but never used
+      uint8_t i,j;
+..\Library\fih\src\lt_i2c.c(309): warning:  #550-D: variable "i"  was set but never used
+      uint8_t i,j;
+..\Library\fih\src\lt_i2c.c(309): warning:  #550-D: variable "j"  was set but never used
+      uint8_t i,j;
+..\Library\fih\src\lt_i2c.c: 7 warnings, 0 errors
+compiling key.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\key.c: 3 warnings, 0 errors
+creating preprocessor file for Ecx335af_calibration.c...
+creating preprocessor file for fmc.c...
+compiling LT7211_upgrade.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\LT7211_upgrade.c(105): warning:  #223-D: function "memset" declared implicitly
+  		memset( byPageReadData, 0, 128 );
+..\Library\fih\src\LT7211_upgrade.c(49): warning:  #550-D: variable "bRet"  was set but never used
+  	int bRet;
+..\Library\fih\src\LT7211_upgrade.c(273): warning:  #223-D: function "memset" declared implicitly
+  		memset( byPageReadData, 0, 128 );
+..\Library\fih\src\LT7211_upgrade.c(322): warning:  #177-D: variable "lEndAddr"  was declared but never referenced
+  	long lEndAddr   = lWriteAddr;
+..\Library\fih\src\LT7211_upgrade.c: 7 warnings, 0 errors
+compiling Ecx335af_calibration.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\Ecx335af_calibration.c(44): warning:  #177-D: label "lexit"  was declared but never referenced
+  lexit:
+..\Library\fih\src\Ecx335af_calibration.c(85): warning:  #177-D: label "lexit"  was declared but never referenced
+  lexit:
+..\Library\fih\src\Ecx335af_calibration.c: 5 warnings, 0 errors
+creating preprocessor file for lp_i2c.c...
+creating preprocessor file for mcu_version.c...
+compiling fmc.c...
+compiling lp_i2c.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\lp_i2c.c: 3 warnings, 0 errors
+compiling mcu_version.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\mcu_version.c(63): warning:  #550-D: variable "u32Data"  was set but never used
+  	uint32_t    i, u32Data;
+..\Library\fih\src\mcu_version.c(187): error:  #167: argument of type "uint8_t *" is incompatible with parameter of type "uint32_t"
+  	FMC_Write(
+ATA_FLASH_VER_BASE + 4, data_flash.mcu_version);
+..\Library\fih\src\mcu_version.c(188): error:  #167: argument of type "uint8_t *" is incompatible with parameter of type "uint32_t"
+  	FMC_Write(
+ATA_FLASH_VER_BASE + 14, data_flash.lt7211b_fwversion);
+..\Library\fih\src\mcu_version.c(197): warning:  #177-D: label "lexit"  was declared but never referenced
+  lexit:
+..\Library\fih\src\mcu_version.c(221): error:  #513: a value of type "uint32_t" cannot be assigned to an entity of type "uint8_t *"
+  		data_flash.mcu_version = FMC_Read(
+ATA_FLASH_VER_BASE+4);
+..\Library\fih\src\mcu_version.c(222): error:  #513: a value of type "uint32_t" cannot be assigned to an entity of type "uint8_t *"
+  		data_flash.lt7211b_fwversion = FMC_Read(
+ATA_FLASH_VER_BASE+14);
+..\Library\fih\src\mcu_version.c(238): warning:  #177-D: label "lexit"  was declared but never referenced
+  lexit:
+..\Library\fih\src\mcu_version.c: 6 warnings, 4 errors
+creating preprocessor file for i2c_alsps.c...
+creating preprocessor file for wdt.c...
+creating preprocessor file for download_flag.c...
+compiling i2c_alsps.c...
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\src\i2c_alsps.c(142): warning:  #177-D: variable "test"  was declared but never referenced
+  	int test= -1;
+..\Library\fih\src\i2c_alsps.c: 4 warnings, 0 errors
+compiling wdt.c...
+creating preprocessor file for main.c...
+compiling download_flag.c...
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\src\download_flag.c(98): warning:  #1-D: last line of file ends without a newline
+  }
+..\Library\fih\src\download_flag.c: 4 warnings, 0 errors
+compiling main.c...
+..\Library\fih\inc\i2c_alsps.h(76): warning:  #1295-D: Deprecated declaration i2c_alsps_init - give arg types
+  extern void i2c_alsps_init();
+..\Library\fih\inc\als.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Library\fih\inc\download_flag.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\main.c(104): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i;
+..\main.c(105): warning:  #177-D: variable "ptr"  was declared but never referenced
+  	uint8_t *ptr;
+..\main.c(106): warning:  #177-D: variable "ptr1"  was declared but never referenced
+  	uint8_t *ptr1;
+..\main.c(208): warning:  #223-D: function "get_dl_flag" declared implicitly
+  	data_flash.dl_flags = get_dl_flag();
+..\main.c(212): warning:  #223-D: function "dl_flag_init" declared implicitly
+  		dl_flag_init();
+..\main.c(213): warning:  #223-D: function "set_dl_flag" declared implicitly
+  		set_dl_flag();
+..\main.c(217): warning:  #223-D: function "set_boot_flags" declared implicitly
+  		set_boot_flags();
+..\main.c: 10 warnings, 0 errors
+".\Objects\ARGlass.axf" - 4 Error(s), 76 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Nuvoton
+                http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.2.pack
+                Nuvoton.NuMicro_DFP.1.3.2
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ARGlass
+  d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.2\Device\NANO100BN\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>
